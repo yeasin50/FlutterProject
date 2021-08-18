@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     double statusBarHeight = MediaQuery.of(context).padding.top;
     // double areasicura = size.height - statusBarHeight;
 
-    // La StatusBar è alta 24 pixel.
+    // StatusBar height is 24 pixel.
 
     return Scaffold(
       body: Stack(
@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 children: [
             
-                SizedBox(height: statusBarHeight), // spazio per statusbar
+                SizedBox(height: statusBarHeight), // SafeArea statusbar
             
                 Align(
                   alignment: Alignment.topLeft,
@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
             
                       Icon(Icons.wb_sunny_sharp, size: 15, color: Color(0xff8276f4)),
             
-                      SizedBox(width: 8), //  Spazio laterale da icona
+                      SizedBox(width: 8), //  Horizontal Space from icon
                       
                       Text("MER 18 AGO", style: TextStyle(
                         fontWeight: FontWeight.bold,
