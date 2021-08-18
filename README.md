@@ -1,6 +1,6 @@
-# tutorial
+# FlutterProject
 
-A new Flutter project.
+My currently Flutter project.
 
 ## Getting Started
 
